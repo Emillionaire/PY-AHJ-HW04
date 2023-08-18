@@ -1,0 +1,33 @@
+.card-images {
+    position: relative;
+    height: 25px;
+    overflow: hidden;
+}
+
+.card-image {
+    position: relative;
+    top: -25px;
+}
+
+.validate-form {
+    margin-top: 20px;
+    height: 30px;
+}
+
+.valid {
+    display: none;
+    position: relative;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    fill: green;
+}
+
+.invalid {
+    display: none;
+    position: relative;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    fill: red;
+}
